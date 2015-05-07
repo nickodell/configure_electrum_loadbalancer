@@ -1,0 +1,2 @@
+0 * * * *	/root/configure_electrum_loadbalancer/copy_logs_back.sh >> /root/logs/summary.log
+*/15 * * * *	/root/configure_electrum_loadbalancer/create_configuration.sh >> /root/logs/poolstats.log

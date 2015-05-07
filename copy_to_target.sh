@@ -1,4 +1,7 @@
 #!/bin/bash
+# Nick O'Dell
+# Copies this repository to the remote machine
+
 git add .
 git commit -m "Automatically generated commit"
 git push

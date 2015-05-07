@@ -1,4 +1,8 @@
 #!/bin/bash
+# Nick O'Dell
+# Usage: [ip-of-loadbalancer] [ip-of-worker]
+# Adds the second ip to the loadbalancer specified by the first IP.
+# Expects publickey login
 
 ssh root@$2 "echo \"$1\" >> /root/candidates; \
         cat /root/candidates | uniq > /root/candidates2;  \
